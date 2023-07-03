@@ -150,7 +150,7 @@ I would like to thanks Microverse for this learning opportunity.
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 License <a name="license" href="./LICENSE"></a>
 
 This project is [MIT](./MIT.md) licensed.
 
