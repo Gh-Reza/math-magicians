@@ -1,4 +1,5 @@
 import React from 'react';
+import './Calculator.css';
 
 const InputOutput = () => (
   <div>
