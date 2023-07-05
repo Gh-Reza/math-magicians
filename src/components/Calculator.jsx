@@ -1,29 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
+import InputOutput from './InputOutput';
+import Button from './Button';
 
-const InputOutput = () => (
-  <div>
-    <form action="">
-      <input type="text" value={0} className="inputOutput" />
-    </form>
-  </div>
-);
+const Calculator = () => {
+  const [inputValue] = useState('0');
 
-const Button = () => {
-  const keys = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
   return (
-    <ul className="keys-container">
-      {keys.map((key) => (
-        <li className="key key-ac" key={key}>{key}</li>
-      ))}
-    </ul>
+    <div className="calculator-container">
+      <InputOutput value={inputValue} />
+      <Button />
+    </div>
   );
 };
-
-const Calculator = () => (
-  <div className="calculator-container">
-    <InputOutput />
-    <Button />
-  </div>
-);
 export default Calculator;
