@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const InputOutput = ({ value }) => (
   <div>
     <form action="">
-      <input type="text" value={value} className="inputOutput" />
+      <input type="text" value={value} className="inputOutput" readOnly />
     </form>
   </div>
 );
