@@ -1,29 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Calculator.css';
+import Output from './Output';
+import Button from './Button';
+import calculate from '../logic/calculate';
 
-const InputOutput = () => (
-  <div>
-    <form action="">
-      <input type="text" value={0} className="inputOutput" />
-    </form>
-  </div>
-);
+const Calculator = () => {
+  const [outputValue, setOutpupValue] = useState('0');
 
-const Button = () => {
-  const keys = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+  // This object holds the state of the calculator
+  const obj = {
+    total: null,
+    next: null,
+    operation: null,
+  };
+
+  const [objState, setObjState] = useState(obj);
+
+  // This function takes the button name as input and updates the state of the calculator
+  const updateObjState = (btnName) => {
+    const newObj = calculate(objState, btnName);
+    setObjState(newObj);
+    setOutpupValue(newObj.next || newObj.total || '0');
+  };
+
   return (
-    <ul className="keys-container">
-      {keys.map((key) => (
-        <li className="key key-ac" key={key}>{key}</li>
-      ))}
-    </ul>
+    <div className="calculator-container">
+      <Output value={outputValue} />
+      <Button onSmash={updateObjState} />
+    </div>
   );
 };
-
-const Calculator = () => (
-  <div className="calculator-container">
-    <InputOutput />
-    <Button />
-  </div>
-);
 export default Calculator;

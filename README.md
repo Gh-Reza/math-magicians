@@ -49,6 +49,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Created with react**
+- **Calculate simple math experassions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

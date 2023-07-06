@@ -1,4 +1,4 @@
-.inputOutput {
+.Output {
   width: 100%;
   padding: 1.6rem 5px;
   border: 1px solid #ddd;
@@ -17,7 +17,6 @@
 
 .key {
   width: 100%;
-  padding: 1.6rem 8px;
   border: 1px solid #ddd;
   text-align: center;
 }
@@ -30,4 +29,14 @@
 
 .key:nth-child(17) {
   grid-column: 1 / span 2;
+}
+
+.btn {
+  width: 100%;
+  padding: 1.6rem 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-color: transparent;
+  color: #000;
+  cursor: pointer;
 }
