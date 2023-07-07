@@ -35,15 +35,15 @@ const Quote = () => {
     return <div><h2>{error}</h2></div>;
   }
   return (
-    <div>
-      <h2>
+    <div className="quote-container">
+      <p>
         &ldquo;
         {quote}
         &ldquo;
-      </h2>
-      <h3>
+      </p>
+      <p>
         {author}
-      </h3>
+      </p>
     </div>
   );
 };

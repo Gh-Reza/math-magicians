@@ -5,8 +5,8 @@ import Quote from './components/Quote';
 function App() {
   return (
     <div className="App">
-      <Calculator />
-      <Quote />
+      <Calculator className="calc" />
+      <Quote className="quote" />
     </div>
   );
 }
