@@ -29,21 +29,23 @@ const Quote = () => {
   }, []);
 
   if (loading) {
-    return <div><h2>Loading...</h2></div>;
+    return <div className="container flex-grow-1 d-flex justify-content-center align-items-center"><h2>Loading...</h2></div>;
   }
   if (error) {
-    return <div><h2>{error}</h2></div>;
+    return <div className="container d-flex justify-content-center align-items-center"><h2>{error}</h2></div>;
   }
   return (
-    <div className="quote-container">
-      <p>
-        &ldquo;
-        {quote}
-        &ldquo;
-      </p>
-      <p>
-        {author}
-      </p>
+    <div className="quote-container container flex-grow-1 d-flex flex-column justify-content-center align-items-center">
+      <figure className="border border-white figure-container bg-white overflow-auto shadow">
+        <blockquote className="blockquote fs-2">
+          &ldquo;
+          {quote}
+          &ldquo;
+        </blockquote>
+        <figcaption className="blockquote-footer text-end">
+          {author}
+        </figcaption>
+      </figure>
     </div>
   );
 };

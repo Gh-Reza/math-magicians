@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
-import Calculator from './components/Calculator';
-import Quote from './components/Quote';
+import Calculator from './pages/Calculator';
+import Quote from './pages/Quote';
 import Header from './components/Header';
-import Home from './components/Home';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <div className="App d-flex flex-column min-vh-100">
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/s" element={<Home />} />
           <Route path="/calculator" element={<Calculator className="calc" />} />
-          <Route path="/quote" element={<Quote className="quote" />} />
+          <Route path="/" element={<Quote className="quote" />} />
         </Routes>
       </div>
     </>
