@@ -1,9 +1,4 @@
 .App {
   border: 1px solid #ddd;
-  width: 85%;
-  margin: 0 auto;
-  margin-top: 12rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6px;
+  width: 100%;
 }
