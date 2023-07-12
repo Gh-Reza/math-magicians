@@ -30,10 +30,18 @@ const Quote = () => {
   }, []);
 
   if (loading) {
-    return <div className="container flex-grow-1 d-flex justify-content-center align-items-center"><HalfCircleSpinner color="#333" size="100" /></div>;
+    return (
+      <div className="container flex-grow-1 d-flex justify-content-center align-items-center">
+        <HalfCircleSpinner color="#333" size="100" />
+      </div>
+    );
   }
   if (error) {
-    return <div className="container d-flex justify-content-center align-items-center"><h2>{error}</h2></div>;
+    return (
+      <div className="container d-flex justify-content-center align-items-center">
+        <h2>{error}</h2>
+      </div>
+    );
   }
   return (
     <div className="quote-container container flex-grow-1 d-flex flex-column justify-content-center align-items-center">
@@ -43,9 +51,7 @@ const Quote = () => {
           {quote}
           &ldquo;
         </blockquote>
-        <figcaption className="blockquote-footer text-end">
-          {author}
-        </figcaption>
+        <figcaption className="blockquote-footer text-end">{author}</figcaption>
       </figure>
     </div>
   );

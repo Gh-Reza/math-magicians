@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => (
   <div className="headerc p-4 w-100 bg-white shadow">
     <div className="container">
@@ -7,9 +9,15 @@ const Header = () => (
         </div>
         <div className="menu-wrapper col text-end">
           <ul className="list-inline row justify-content-end gx-4">
-            <li className="btn list-inline-item fs-4 col-auto p-2 ps-4 pe-4 border-bottom border-muted border-2 text-muted">Home</li>
-            <li className="btn list-inline-item fs-4 col-auto p-2 ps-4 pe-4 border-bottom border-muted border-2 text-muted">Calculator</li>
-            <li className="btn list-inline-item fs-4 col-auto p-2 ps-4 pe-4 border-bottom border-muted border-2 text-muted">Quote</li>
+            <li className=" list-inline-item fs-4 col-auto p-2 ps-4 pe-4 border-bottom border-muted border-2">
+              <Link to="/" className="text-decoration-none text-muted">Home</Link>
+            </li>
+            <li className="list-inline-item fs-4 col-auto p-2 ps-4 pe-4 border-bottom border-muted border-2">
+              <Link to="calculator" className="text-decoration-none text-muted">Calculator</Link>
+            </li>
+            <li className="list-inline-item fs-4 col-auto p-2 ps-4 pe-4 border-bottom border-muted border-2">
+              <Link to="quote" className="text-decoration-none text-muted">Quote</Link>
+            </li>
           </ul>
         </div>
       </div>
