@@ -1,5 +1,3 @@
-import React from 'react';
-import './Calculator.css';
 import PropTypes from 'prop-types';
 
 const Button = ({ onSmash }) => {
@@ -12,7 +10,7 @@ const Button = ({ onSmash }) => {
   };
 
   return (
-    <ul className="keys-container m-0">
+    <ul className="keys-container m-0 bg-light">
       {keys.map((key) => (
         <li className="key" key={key}><button className="btnc" type="button" onClick={() => hanldeClick(key)} key={key}>{key}</button></li>
       ))}

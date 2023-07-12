@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Calculator.css';
 import Output from './Output';
 import Button from './Button';
 import calculate from '../logic/calculate';
@@ -27,7 +26,7 @@ const Calculator = () => {
     <div className="container">
       <div className="calc-page-wrapper row row-cols-1 row-cols-md-2">
         <div className="text-container col align-self-end align-self-md-center ">
-          <p className="calc-text">Let&rsquo;s do some math</p>
+          <p className="calc-text border-0 border-bottom-2">Let&rsquo;s do some math</p>
         </div>
         <div className="calculator-wrapper col align-self-center p-0">
           <div className="calculator-container border p-0">

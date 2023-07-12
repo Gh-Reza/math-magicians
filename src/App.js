@@ -1,5 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Quote from './components/Quote';

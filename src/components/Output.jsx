@@ -1,5 +1,3 @@
-import React from 'react';
-import './Calculator.css';
 import PropTypes from 'prop-types';
 
 const Output = ({ value }) => (
