@@ -55,14 +55,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo">Comming soon...</a>
-
-<!-- - <a href="https://demesameneshoa.github.io/JavaScript-Capstone/">Click Here</a> to see the live demo -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -114,6 +106,14 @@ npm start
 👤 **Reza Merzaie**
 
 - GitHub: [@Gh-Reza](https://github.com/Gh-Reza)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Expand the calculation functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
