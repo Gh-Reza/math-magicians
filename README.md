@@ -39,6 +39,7 @@
   <summary>Client</summary>
   <ul>
     <li>React</li>
+    <li>Bootstrap</li>
     <li>Webpack</li>
     <li>Jest</li>
   </ul>
@@ -50,6 +51,7 @@
 
 - **Created with react**
 - **Calculate simple math experassions**
+- **Fetch some beautiful quotes from API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,14 +114,6 @@ npm start
 👤 **Reza Merzaie**
 
 - GitHub: [@Gh-Reza](https://github.com/Gh-Reza)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Add calculation function**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
