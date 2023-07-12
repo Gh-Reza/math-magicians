@@ -1,5 +1,9 @@
 .calculator-container {
-  width: 400px;
+  max-width: 600px;
+}
+
+.calc-page-wrapper {
+  padding-top: 100px;
 }
 
 .Output {
@@ -17,6 +21,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1px;
+  padding-left: 0;
 }
 
 .key {
@@ -35,7 +40,7 @@
   grid-column: 1 / span 2;
 }
 
-.btn {
+.btnc {
   width: 100%;
   padding: 1.6rem 8px;
   border: 1px solid #ddd;
@@ -53,4 +58,17 @@
   font-size: 1.8rem;
   color: #5f5f5f;
   margin-top: 1.2rem;
+}
+
+.calc-text {
+  font-size: 32px;
+}
+
+.calc-wrapper {
+  max-height: 100vh;
+}
+
+.header {
+  width: 100%;
+  background-color: blue;
 }

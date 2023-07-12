@@ -12,9 +12,9 @@ const Button = ({ onSmash }) => {
   };
 
   return (
-    <ul className="keys-container">
+    <ul className="keys-container m-0">
       {keys.map((key) => (
-        <li className="key" key={key}><button className="btn" type="button" onClick={() => hanldeClick(key)} key={key}>{key}</button></li>
+        <li className="key" key={key}><button className="btnc" type="button" onClick={() => hanldeClick(key)} key={key}>{key}</button></li>
       ))}
     </ul>
   );

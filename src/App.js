@@ -1,7 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Quote from './components/Quote';
-import 'bootstrap/dist/css/bootstrap.css';
 import Header from './components/Header';
 
 function App() {
@@ -9,8 +10,10 @@ function App() {
     <>
       <div className="App">
         <Header />
-        <Calculator className="calc" />
-        <Quote className="quote" />
+        <Routes>
+          <Route path="/" element={<Calculator className="calc" />} />
+          <Route path="/quote" element={<Quote className="quote" />} />
+        </Routes>
       </div>
     </>
   );
