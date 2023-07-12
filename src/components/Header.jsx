@@ -9,13 +9,13 @@ const Header = () => (
         </div>
         <div className="menu-wrapper col text-end">
           <ul className="list-inline row justify-content-end gx-4">
-            <li className=" list-inline-item fs-4 col-auto p-2 ps-4 pe-4 border-bottom border-muted border-2">
+            <li className=" list-inline-item fs-4 col-auto p-2 me-4 border-bottom border-muted border-2">
               <Link to="/" className="text-decoration-none text-muted">Home</Link>
             </li>
-            <li className="list-inline-item fs-4 col-auto p-2 ps-4 pe-4 border-bottom border-muted border-2">
+            <li className="list-inline-item fs-4 col-auto p-2 me-4 border-bottom border-muted border-2">
               <Link to="calculator" className="text-decoration-none text-muted">Calculator</Link>
             </li>
-            <li className="list-inline-item fs-4 col-auto p-2 ps-4 pe-4 border-bottom border-muted border-2">
+            <li className="list-inline-item fs-4 col-auto p-2 me-4 border-bottom border-muted border-2">
               <Link to="quote" className="text-decoration-none text-muted">Quote</Link>
             </li>
           </ul>

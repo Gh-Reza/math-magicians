@@ -8,7 +8,7 @@ const Quote = () => {
   const [author, setAuthor] = useState('');
 
   useEffect(() => {
-    fetch('https://api.api-ninjas.com/v1/quotes?category=death', {
+    fetch('https://api.api-ninjas.com/v1/quotes?category=life', {
       headers: { 'X-Api-Key': '+wNDNQQDL7FhXthHVazGEQ==nICHvEvsNxGiIEFl' },
     })
       .then((response) => {
