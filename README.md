@@ -39,6 +39,7 @@
   <summary>Client</summary>
   <ul>
     <li>React</li>
+    <li>Bootstrap</li>
     <li>Webpack</li>
     <li>Jest</li>
   </ul>
@@ -50,14 +51,7 @@
 
 - **Created with react**
 - **Calculate simple math experassions**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo">Comming soon...</a>
-
-<!-- - <a href="https://demesameneshoa.github.io/JavaScript-Capstone/">Click Here</a> to see the live demo -->
+- **Fetch some beautiful quotes from API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +113,7 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add calculation function**
+- [ ] **Expand the calculation functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

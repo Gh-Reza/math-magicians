@@ -1,13 +1,14 @@
-import './App.css';
-import Calculator from './components/Calculator';
-import Quote from './components/Quote';
+import Header from './components/Header';
+import AllRouts from './routes/Routes';
 
 function App() {
   return (
-    <div className="App">
-      <Calculator className="calc" />
-      <Quote className="quote" />
-    </div>
+    <>
+      <div className="App d-flex flex-column min-vh-100">
+        <Header />
+        <AllRouts />
+      </div>
+    </>
   );
 }
 
