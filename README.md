@@ -55,7 +55,9 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo">Comming soon...</a>
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Click [here](https://math-magician-e072.onrender.com/)
 
 <!-- - <a href="https://demesameneshoa.github.io/JavaScript-Capstone/">Click Here</a> to see the live demo -->
 
