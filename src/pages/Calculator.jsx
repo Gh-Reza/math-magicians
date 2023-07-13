@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import './Calculator.css';
-import Output from './Output';
-import Button from './Button';
+import Output from '../components/Output';
+import Button from '../components/Button';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
@@ -24,9 +23,18 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator-container">
-      <Output value={outputValue} />
-      <Button onSmash={updateObjState} />
+    <div className="container">
+      <div className="calc-page-wrapper row row-cols-1 row-cols-md-2">
+        <div className="text-container col align-self-end align-self-md-center ">
+          <p className="calc-text border-0 border-bottom-2">Let&rsquo;s do some math</p>
+        </div>
+        <div className="calculator-wrapper col align-self-center p-0">
+          <div className="calculator-container border p-0">
+            <Output value={outputValue} />
+            <Button onSmash={updateObjState} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

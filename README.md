@@ -39,6 +39,7 @@
   <summary>Client</summary>
   <ul>
     <li>React</li>
+    <li>Bootstrap</li>
     <li>Webpack</li>
     <li>Jest</li>
   </ul>
@@ -121,7 +122,7 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add calculation function**
+- [ ] **Expand the calculation functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
